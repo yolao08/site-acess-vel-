@@ -29,9 +29,10 @@ section {
 }
 
 .inicio-fundo {
-    
+
     background-image: url('img/4965007.jpg');
-  
+
+    background-size: cover;
     background-position: right;
     border-radius: 80px;
     width: 100%;
@@ -90,7 +91,7 @@ section {
     justify-content: center;
     position: relative;
     z-index: 1;
-  
+    /* Garante que o conteúdo fica acima das imagens do background */
 }
 
 
@@ -115,18 +116,18 @@ h2 {
     background-image: url('img/4965007.jpg');
     background-size: cover;
     padding: 4rem 0;
-
+   
 
 }
 
 .formulario {
     background-color: #ffffff;
     padding: 2rem;
-
+ 
     border-radius: 10px;
-
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
     font-weight: bold;
 }
 
